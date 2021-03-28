@@ -1,0 +1,63 @@
+/** @format */
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  padding: 20px;
+  width: 630px;
+  outline: none;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+h3,
+.text {
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.buttonsContanier {
+  margin: 0 auto;
+  width: 500px;
+  text-align: right;
+}
+.Btn {
+  background-color: #fff;
+  border: none;
+  color: rgb(38, 38, 38);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 0px;
+  width: 80px;
+  height: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Btn:hover {
+  cursor: pointer;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.deleteBtn {
+  margin-right: 20px;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+::placeholder {
+  font-size: 15px;
+  font-family: source-code-pro;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
